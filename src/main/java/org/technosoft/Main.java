@@ -1,5 +1,11 @@
 package org.technosoft;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public class Main {
 
     static int[] array; //random int elements from -50 to 50. bounds included
@@ -9,8 +15,6 @@ public class Main {
     static int sumOfPositiveElements;
     static int sumOfNegativeElements;
     static double averageValue;
-
-
 
 
     public static void main(String[] args) {
@@ -66,14 +70,31 @@ public class Main {
         averageValue = (double) (sumOfPositiveElements + sumOfNegativeElements) / array.length;
         System.out.println("Average volume of elements: " + averageValue);
 
-        switch (amountOfZeroElements) {
+//        switch (amountOfZeroElements) {
+//
+//            case 10 -> System.out.println("it's grate!");
+//            case 100 -> System.out.println("it's grate!");
+//            case 10000 -> System.out.println("it's grate!");
+//            case 10000000 -> System.out.println("it's grate!");
+//
+//            default -> throw new IllegalStateException("Unexpected value: " + amountOfZeroElements);
+//        }
+        List<String> strings;
+        strings = Stream.generate(Math::random)
+                .map(i -> (int) (i * 1_000))
+                .map(Object::toString)
+                .limit(30)
+                .collect(Collectors.toList());
 
-            case 10 ->  System.out.println("it's grate!");
-            case 100 ->  System.out.println("it's grate!");
-            case 10000 ->  System.out.println("it's grate!");
-            case 10000000 ->  System.out.println("it's grate!");
+        strings.forEach(System.out::println);
 
-            default -> throw new IllegalStateException("Unexpected value: " + amountOfZeroElements);
-        }
+        int[] data;
+        data = new Random().ints(30, 0, 1_000)
+                .toArray();
+        System.out.print(Arrays.toString(data));
+
+
+
     }
+
 }
