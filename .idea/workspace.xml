@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="971d9eb6-6c06-4c9c-a694-025f71317a0a" name="Changes" comment="regular commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/progress_bar/Counter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/progress_bar/ProgressBar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/progress_bar/ProgressBarApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/progress_bar/Task.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/fibonacci/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/kaprekarsconstant/KaprekarsConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/technosoft/MainTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/technosoft/fibonacci/FibonacciTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/technosoft/kaprekarsconstant/KaprekarsConstantTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/technosoft/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/technosoft/arraylistandlinkedlistcomparison/ComparisonOfArrayListAndLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/collectionsperformancecomparison/ComparisonOfCollectionsPerformance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/technosoft/progress_bar/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/technosoft/progress_bar/Task.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/technosoft/checknumber/CheckNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/technosoft/checknumber/CheckNumberTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,64 +27,73 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-api/5.9.2/junit-jupiter-api-5.9.2-sources.jar!/org/junit/jupiter/api/Assertions.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2RmKvQEJ8lFtg0vQk3wXAwDk7JZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/mick_/IdeaProjects/core-spring-labfiles/lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.14419",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.technosoft.kaprekarsconstant" />
+      <recent name="org.technosoft.fibonacci" />
+      <recent name="org.technosoft" />
       <recent name="org.technosoft.checknumber" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ProgressBarApp">
-    <configuration name="JavaProject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.technosoft.fitness_v3.JavaProject" />
+  <component name="RunManager" selected="JUnit.KaprekarsConstantTest">
+    <configuration name="KaprekarsConstant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.technosoft.kaprekarsconstant.KaprekarsConstant" />
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.technosoft.fitness_v3.*" />
+          <option name="PATTERN" value="org.technosoft.kaprekarsconstant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,65 +101,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.technosoft.Main" />
+    <configuration name="KaprekarsConstantTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.technosoft.*" />
+          <option name="PATTERN" value="org.technosoft.kaprekarsconstant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.technosoft.kaprekarsconstant" />
+      <option name="MAIN_CLASS_NAME" value="org.technosoft.kaprekarsconstant.KaprekarsConstantTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgressBar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.technosoft.progress_bar.ProgressBar" />
+    <configuration name="KaprekarsConstantTest.calculate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.technosoft.progress_bar.*" />
+          <option name="PATTERN" value="org.technosoft.kaprekarsconstant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.technosoft.kaprekarsconstant" />
+      <option name="MAIN_CLASS_NAME" value="org.technosoft.kaprekarsconstant.KaprekarsConstantTest" />
+      <option name="METHOD_NAME" value="calculate" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgressBarApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.technosoft.progress_bar.ProgressBarApp" />
+    <configuration name="KaprekarsConstantTest.generateRandomNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.technosoft.progress_bar.*" />
+          <option name="PATTERN" value="org.technosoft.kaprekarsconstant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.technosoft.kaprekarsconstant" />
+      <option name="MAIN_CLASS_NAME" value="org.technosoft.kaprekarsconstant.KaprekarsConstantTest" />
+      <option name="METHOD_NAME" value="generateRandomNumber" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProgressBarGUI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.technosoft.progress_bar.ProgressBarGUI" />
+    <configuration name="KaprekarsConstantTest.intToIntArr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="training" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.technosoft.progress_bar.*" />
+          <option name="PATTERN" value="org.technosoft.kaprekarsconstant.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.technosoft.kaprekarsconstant" />
+      <option name="MAIN_CLASS_NAME" value="org.technosoft.kaprekarsconstant.KaprekarsConstantTest" />
+      <option name="METHOD_NAME" value="intToIntArr" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ProgressBarApp" />
-        <item itemvalue="Application.ProgressBarGUI" />
-        <item itemvalue="Application.ProgressBar" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.JavaProject" />
+        <item itemvalue="JUnit.KaprekarsConstantTest" />
+        <item itemvalue="JUnit.KaprekarsConstantTest.calculate" />
+        <item itemvalue="Application.KaprekarsConstant" />
+        <item itemvalue="JUnit.KaprekarsConstantTest.generateRandomNumber" />
+        <item itemvalue="JUnit.KaprekarsConstantTest.intToIntArr" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +197,29 @@
       <workItem from="1689230852443" duration="2194000" />
       <workItem from="1689242219865" duration="16300000" />
       <workItem from="1689606772126" duration="1302000" />
-      <workItem from="1689696686951" duration="26156000" />
+      <workItem from="1689696686951" duration="33759000" />
+      <workItem from="1690208880381" duration="2894000" />
+      <workItem from="1690283834067" duration="8112000" />
+      <workItem from="1690549218078" duration="4154000" />
+      <workItem from="1690808128767" duration="4745000" />
+      <workItem from="1691082927693" duration="1300000" />
+      <workItem from="1691085930348" duration="5907000" />
+      <workItem from="1691311647953" duration="1990000" />
+      <workItem from="1691511630485" duration="6914000" />
+      <workItem from="1691756122595" duration="596000" />
+      <workItem from="1692279540892" duration="594000" />
+      <workItem from="1692428792829" duration="1715000" />
+      <workItem from="1692686374865" duration="18076000" />
+      <workItem from="1693888059251" duration="4342000" />
+      <workItem from="1694084092033" duration="1885000" />
+      <workItem from="1695047085784" duration="954000" />
+      <workItem from="1695908586050" duration="1170000" />
+      <workItem from="1695909804751" duration="354000" />
+      <workItem from="1695910403698" duration="8022000" />
+      <workItem from="1697171685720" duration="880000" />
+      <workItem from="1697274927687" duration="5642000" />
+      <workItem from="1697465500727" duration="134000" />
+      <workItem from="1697465660686" duration="36209000" />
     </task>
     <task id="LOCAL-00001" summary="regular commit">
       <created>1689050017247</created>
@@ -180,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689050017247</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="regular commit">
+      <created>1689864793670</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1689864793670</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,5 +255,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="regular commit" />
     <option name="LAST_COMMIT_MESSAGE" value="regular commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NumberFormatException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

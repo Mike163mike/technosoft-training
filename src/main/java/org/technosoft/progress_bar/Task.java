@@ -13,9 +13,9 @@ public class Task implements Runnable {
                 .toList();
         for (Double d : doubles) {
             Counter.setCounter();
-            var string = String.valueOf(d);
+            System.out.print("    d = " + d + "\r");
             try {
-                Thread.sleep(50);
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
