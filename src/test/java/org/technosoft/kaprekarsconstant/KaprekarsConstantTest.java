@@ -2,17 +2,21 @@ package org.technosoft.kaprekarsconstant;
 
 import org.junit.jupiter.api.RepeatedTest;
 import org.junit.jupiter.api.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class KaprekarsConstantTest {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(KaprekarsConstantTest.class);
 
     KaprekarsConstant kaprekarsConstant = new KaprekarsConstant();
 
     @RepeatedTest(value = 30)
     void generateRandomNumber() {
         var random = kaprekarsConstant.generateRandomNumber(4);
-        System.out.println(random);
+        LOGGER.info("random int: {}", random);
         assertTrue(1_000 < random && 10_000 >= random);
     }
 

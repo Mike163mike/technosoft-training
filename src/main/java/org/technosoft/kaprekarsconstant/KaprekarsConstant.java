@@ -1,5 +1,8 @@
 package org.technosoft.kaprekarsconstant;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.Arrays;
 import java.util.Random;
 import java.util.stream.Collectors;
@@ -7,6 +10,8 @@ import java.util.stream.Collectors;
 public class KaprekarsConstant {
 
     /*Kaprekar's constant is 6174*/
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(KaprekarsConstant.class);
 
     /*method generates random number with range equals "range" and has no equals digits*/
     public int generateRandomNumber(double range) {
@@ -78,7 +83,8 @@ public class KaprekarsConstant {
             int randomInt = kaprekarsConstant.generateRandomNumber(number);
             int[] numberAsArr = kaprekarsConstant.intToIntArr(randomInt);
 
-            System.out.println("RESULT (" + i + "): " + kaprekarsConstant.calculate(numberAsArr, pastConstant));
+//            System.out.println("RESULT (" + i + "): " + kaprekarsConstant.calculate(numberAsArr, pastConstant));
+            LOGGER.info("RESULT ({}): {}", i, kaprekarsConstant.calculate(numberAsArr, pastConstant));
         }
     }
 }

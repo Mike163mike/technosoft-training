@@ -3,3 +3,7 @@ logging:
 #    org.technosoft: info
   file:
     name: application.log
+
+#url: "https://www.cbr-xml-daily.ru"
+
+
