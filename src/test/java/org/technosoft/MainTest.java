@@ -2,12 +2,15 @@ package org.technosoft;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import org.technosoft.localdatetime.LocalDateTimeCastom;
 
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.util.List;
 
 class MainTest {
+
+    LocalDateTimeCastom localDateTimeCastom = new LocalDateTimeCastom();
 
     @Test
     void main() {
@@ -17,7 +20,7 @@ class MainTest {
     void convertStringToLocalDate() {
         String dateString = "2023-10-12";
         Assertions.assertEquals(LocalDateTime.of(2023, Month.OCTOBER, 12, 0,0),
-                Main.convertStringToLocalDate(dateString));
+                localDateTimeCastom.convertStringToLocalDate(dateString));
     }
 
     @Test
@@ -31,6 +34,6 @@ class MainTest {
     @Test
     void checkList() {
         List<String> roles = List.of("ROLE_ADMIN");
-        Assertions.assertTrue(Main.checkList(roles));
+        Assertions.assertTrue(localDateTimeCastom.checkList(roles));
     }
 }
