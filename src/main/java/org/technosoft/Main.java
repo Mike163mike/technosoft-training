@@ -181,6 +181,8 @@ public class Main {
         }
         System.out.println("\n=========================================================\n");
 
-
+        LOGGER.info("String with 300 letters K: {}", Stream.generate(() -> "First")
+                .limit(300)
+                .collect(Collectors.joining()));
     }
 }
