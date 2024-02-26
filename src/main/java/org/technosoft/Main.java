@@ -5,12 +5,13 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.technosoft.localdatetime.LocalDateTimeCastom;
+import org.technosoft.localdatetime.LocalDateTimeCustom;
 import org.technosoft.rateofcurrency.RateOfCurrency;
 import org.technosoft.rateofcurrency.jackson.CurrencyJackson;
 
 import java.time.Duration;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
@@ -129,13 +130,13 @@ public class Main {
         System.out.println();
         System.out.println("RUB".matches("[A-Z]{3}") + " ~~~~~ Test string pattern matching.");
 
-        LocalDateTimeCastom localDateTimeCastom = new LocalDateTimeCastom();
+        LocalDateTimeCustom localDateTimeCustom = new LocalDateTimeCustom();
 
-        System.out.println(localDateTimeCastom.convertStringToLocalDate("2023-10-22").plus(Duration.ofDays(1)));
+        System.out.println(localDateTimeCustom.convertStringToLocalDate("2023-10-22").plus(Duration.ofDays(1)));
 
-        localDateTimeCastom.getQueriesByPeriod("2023-08-04 08:00", "2023-09-01 10:30");
+        localDateTimeCustom.getQueriesByPeriod("2023-08-04 08:00", "2023-09-01 10:30");
 
-        localDateTimeCastom.minusLocalDate(LocalDate.parse("2010-08-10"), LocalDate.parse("2020-10-10"));
+        localDateTimeCustom.minusLocalDate(LocalDate.parse("2010-08-10"), LocalDate.parse("2020-10-10"));
         System.out.println();
 
         int i = 4;
@@ -143,7 +144,7 @@ public class Main {
             System.out.println("UUID: " + UUID.randomUUID());
             i--;
         }
-        System.out.println("Checking list entry: " + localDateTimeCastom.checkList(List.of(new String[]{"role_admin"})));
+        System.out.println("Checking list entry: " + localDateTimeCustom.checkList(List.of(new String[]{"role_admin"})));
         System.out.println("=======================================================");
 
         RateOfCurrency rateOfCurrency = new RateOfCurrency();
@@ -184,5 +185,8 @@ public class Main {
         LOGGER.info("String with 300 letters K: {}", Stream.generate(() -> "First")
                 .limit(300)
                 .collect(Collectors.joining()));
+
+        LOGGER.info("Testing isBefore method: {}",
+                localDateTimeCustom.isBeforeDate(LocalDateTime.parse("2025-08-04T08:00")));
     }
 }

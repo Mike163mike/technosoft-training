@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.HashSet;
 import java.util.List;
 
-public class LocalDateTimeCastom {
+public class LocalDateTimeCustom {
 
     public  LocalDateTime convertStringToLocalDate(String dateString) {
         var formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
@@ -35,5 +35,9 @@ public class LocalDateTimeCastom {
                 .map(String::toUpperCase)
                 .toList();
         return new HashSet<>(STRING_ROLES).containsAll(newStrings);
+    }
+
+    public boolean isBeforeDate(LocalDateTime localDateTime) {
+        return localDateTime.isBefore(LocalDateTime.now());
     }
 }
