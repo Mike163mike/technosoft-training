@@ -68,7 +68,7 @@
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.14419",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -231,7 +231,8 @@
       <workItem from="1700459435239" duration="2681000" />
       <workItem from="1701768475479" duration="26000" />
       <workItem from="1708616336309" duration="1174000" />
-      <workItem from="1708965280960" duration="1895000" />
+      <workItem from="1708965280960" duration="2915000" />
+      <workItem from="1709007539688" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="regular commit">
       <created>1689050017247</created>
@@ -311,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708965788026</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="regular">
+      <option name="closed" value="true" />
+      <created>1709006904934</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1709006904934</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
