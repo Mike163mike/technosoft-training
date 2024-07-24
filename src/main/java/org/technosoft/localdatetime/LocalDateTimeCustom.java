@@ -27,7 +27,7 @@ public class LocalDateTimeCustom {
 
     public void minusLocalDate(LocalDate start, LocalDate finish) {
         Period period = Period.between(start, finish);
-        System.out.printf("%d года(лет) и %d месяц(а, ев)", period.getYears(), period.getMonths());
+        System.out.printf("%d года(лет) и %d месяц(а, ев)%n", period.getYears(), period.getMonths());
     }
 
     public boolean checkList(List<String> roles) {
