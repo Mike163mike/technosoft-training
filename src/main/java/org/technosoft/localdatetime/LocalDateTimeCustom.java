@@ -1,9 +1,6 @@
 package org.technosoft.localdatetime;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
-import java.time.Period;
+import java.time.*;
 import java.time.format.DateTimeFormatter;
 import java.util.Arrays;
 import java.util.HashSet;
@@ -68,4 +65,10 @@ public class LocalDateTimeCustom {
                 .map(t -> LocalDateTime.parse(t, formatter))
                 .toList();
     }
+
+    public String convertODTToString(OffsetDateTime offsetDateTime) {
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSX");
+        return offsetDateTime.format(formatter);
+    }
 }
+

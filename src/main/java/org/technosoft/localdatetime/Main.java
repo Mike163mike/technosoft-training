@@ -1,6 +1,8 @@
 package org.technosoft.localdatetime;
 
 import java.time.LocalDateTime;
+import java.time.OffsetDateTime;
+import java.time.ZonedDateTime;
 import java.util.List;
 
 public class Main {
@@ -18,7 +20,12 @@ public class Main {
                         LocalDateTime.now().plusDays(2))));
 
         System.out.printf("\nParse String to LocalDateTime list: %s", localDateTimeCustom.convertStringToLDTList(
-                "16.07.2024 14:43 , 17.07.2024 14:43 , 18.07.2024 14:43"
-        ));
+                "16.07.2024 14:43 , 17.07.2024 14:43 , 18.07.2024 14:43"));
+
+        System.out.printf("%nSimple LDT: %s%n", LocalDateTime.now());
+
+        System.out.printf("%nSimple ZDT: %s%n", ZonedDateTime.now());
+
+        System.out.printf("%nSimple ODT: %s%n", localDateTimeCustom.convertODTToString(OffsetDateTime.now()));
     }
 }
