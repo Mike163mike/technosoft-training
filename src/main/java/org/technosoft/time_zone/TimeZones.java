@@ -31,7 +31,7 @@ public class TimeZones {
         System.out.printf("\nParse Duration: %s", List.of(Duration.ofDays(2), Duration.ofHours(5), Duration.ofMinutes(15)));
 
         System.out.printf("\nReverse: %s", Duration.parse("PT240H"));
+
+        System.out.println("\nDuration from ms: " + Duration.ofMillis(2_592_000_000L));
     }
-
-
 }
